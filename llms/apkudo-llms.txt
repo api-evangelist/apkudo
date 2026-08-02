@@ -1,0 +1,47 @@
+# Apkudo
+
+> Apkudo operates the Device Passport Platform for the connected device supply chain, combining software, AI and advanced robotics to capture trusted data at every stage of a device's life. Headquartered in Baltimore, Maryland, with offices in Dallas, Flensburg (Germany) and Sydney, the company was co-founded by Josh Matthews (CEO) and Ben Leslie (CTO). Apkudo publishes no public developer program: there is no public API documentation, OpenAPI definition, developer portal or client library in any package registry. Integrations are delivered privately under commercial agreement, and the Diagnostic SDK is distributed to partners rather than through a registry.
+
+## Platform
+
+- [Device Passport Platform overview](https://www.apkudo.com/platform-overview): the platform layers — Apkudo Platform (system of record), Device Passport (validated device history), Device AI (scoring, grading and routing), DeviceOS (hardware execution layer)
+- [Launch](https://www.apkudo.com/launch): device certification and pre-launch testing
+- [Trade In](https://www.apkudo.com/trade-in): consumer and retail trade-in programs, diagnostics, pricing and promotions
+- [Recover](https://www.apkudo.com/recover): enterprise IT asset recovery, employee purchase and employee managed return
+- [Process](https://www.apkudo.com/process): automated functional and cosmetic device grading
+- [Second Sense](https://www.apkudo.com/second-sense): device monetization and resale
+- [Powered by Apkudo](https://www.apkudo.com/powered-by-apkudo): partner programs built on the platform
+
+## Integration surfaces
+
+- [Diagnostic SDK](https://www.apkudo.com/diagnostic-sdk): the only named first-party client library. Embeds functional testing (locks, battery, camera, sensors, touchscreen, audio) and AI-based cosmetic grading from photo capture into consumer or retail-associate apps; supports configurable diagnostic workflows, trade-in pricing and promotion lookup, and logistics/disposition handoff with tracking and advance shipping notice. Distributed under commercial agreement, not via a public package registry.
+- [Full Automation Line](https://www.apkudo.com/automation-line): robotic device processing line
+- [Standalone Automation Unit](https://www.apkudo.com/automation-unit): single-cell robotic processing unit
+- [Contact / schedule a meeting](https://www.apkudo.com/schedule-meeting): the documented route to API and SDK access
+
+## Security and compliance
+
+- [Trust center](https://apkudo.trustcenter.sprinto.com/): SOC 1 Type 2, SOC 2 Type 2, ISO 27001, ISO 9001, GDPR, CCPA. Audit reports and policy documents are gated behind a mutual NDA. Security contact: infosec@apkudo.com
+- [Data Processing Agreement](https://www.apkudo.com/legal/data-processing-agreement)
+- [Acceptable Use Policy](https://www.apkudo.com/legal/acceptable-use-policy)
+
+## Legal
+
+- [Customer Terms of Service](https://www.apkudo.com/legal/customer-terms-of-service)
+- [Privacy Policy](https://www.apkudo.com/legal/privacy-policy)
+- [All legal documents](https://www.apkudo.com/legal)
+
+## Company
+
+- [About Apkudo](https://www.apkudo.com/about)
+- [Blog](https://www.apkudo.com/blog)
+- [Customer stories](https://www.apkudo.com/customer-stories)
+- [In the news](https://www.apkudo.com/in-the-news)
+- [Careers](https://www.apkudo.com/careers)
+- [Contact](https://www.apkudo.com/contact)
+- [GitHub organization](https://github.com/apkudo): eight legacy repositories only; no API client libraries
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/provider/apkudo)
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/apkudo/refs/heads/main/apis.yml)

@@ -1,17 +1,34 @@
 aid: apkudo
 name: Apkudo
-description: 'Apkudo is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Apkudo is a Baltimore, Maryland based company operating the Device Passport
+  Platform for the connected device supply chain, combining software, AI and advanced
+  robotics to capture trusted data at every stage of a device''s life. The platform
+  spans Launch (device certification and testing), Trade In (consumer trade-in and
+  diagnostics), Recover (enterprise IT asset recovery), Process (automated functional
+  and cosmetic grading) and Monetize (liquidation and resale routing), and is built
+  on Device Passport, Device AI and DeviceOS. Apkudo sells a Full Automation Line,
+  a Standalone Automation Unit and a Diagnostic SDK that partners embed into consumer
+  and retail applications; integrations with customer systems are delivered privately
+  under commercial agreement rather than through a public developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/apkudo/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/666887fafa6e4363bb3e0e91/666b7b7d70124a550fa37236_apkudo-OG-image.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Connected Devices
+- Mobile Devices
+- Circular Economy
+- Sustainability
+- Supply Chain
+- Robotics
+- Device Diagnostics
+- Trade-In
+- IT Asset Disposition
+- Telecommunications
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +36,66 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/apkudo-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/apkudo-vulnerability-disclosure.yml
+- type: Security
+  url: https://apkudo.trustcenter.sprinto.com/
+- type: Compliance
+  url: https://apkudo.trustcenter.sprinto.com/
+- type: Conformance
+  url: conformance/apkudo-conformance.yml
 - type: Website
+  url: https://www.apkudo.com/
+- type: About
+  url: https://www.apkudo.com/about
+- type: Platform
+  url: https://www.apkudo.com/platform-overview
+- type: SDKs
+  url: packages/apkudo-packages.yml
+- type: Blog
+  url: https://www.apkudo.com/blog
+- type: Support
+  url: https://www.apkudo.com/recover/support
+- type: Contact
+  url: https://www.apkudo.com/contact
+- type: TermsOfService
+  url: https://www.apkudo.com/legal/customer-terms-of-service
+- type: PrivacyPolicy
+  url: https://www.apkudo.com/legal/privacy-policy
+- type: AcceptableUsePolicy
+  url: https://www.apkudo.com/legal/acceptable-use-policy
+- type: DataProcessingAgreement
+  url: https://www.apkudo.com/legal/data-processing-agreement
+- type: Legal
+  url: https://www.apkudo.com/legal
+- type: GitHubOrganization
+  url: https://github.com/apkudo
+- type: LinkedIn
+  url: https://www.linkedin.com/company/apkudo
+- type: Careers
+  url: https://www.apkudo.com/careers
+- type: Press
+  url: https://www.apkudo.com/in-the-news
+- type: Newsletter
+  url: https://www.apkudo.com/newsletter
+- type: CaseStudies
+  url: https://www.apkudo.com/customer-stories
+- type: Events
+  url: https://www.apkudo.com/events
+- type: Packages
+  url: packages/apkudo-packages.yml
+- type: LLMsTxt
+  url: llms/apkudo-llms.txt
+- type: DomainSecurity
+  url: security/apkudo-domain-security.yml
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/apkudo
+- type: SecondaryMarket
   url: https://forgeglobal.com/apkudo_stock/
+x-enrichment:
+  date: '2026-08-02'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

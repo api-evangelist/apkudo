@@ -1,0 +1,71 @@
+generated: '2026-08-02'
+method: searched
+source: https://www.apkudo.com/diagnostic-sdk
+public_registry_packages: 0
+note: >-
+  Apkudo ships one named first-party client library — the Apkudo Diagnostic SDK
+  — but distributes it under commercial agreement to carriers, OEMs, retailers
+  and logistics partners rather than through a public package registry. Searches
+  of npm, PyPI, RubyGems, Packagist, crates.io, NuGet and Maven Central for
+  "apkudo" returned zero results on 2026-08-02, and github.com/apkudo holds only
+  eight legacy repositories (seven archived forks from 2012-2016 plus
+  adbusbini). No public install target exists.
+packages:
+- name: Apkudo Diagnostic SDK
+  language: null
+  registry: null
+  url: https://www.apkudo.com/diagnostic-sdk
+  install: null
+  official: true
+  public: false
+  distribution: partner
+  access: Commercial agreement / contact sales
+  description: >-
+    Embeddable device-diagnostic SDK for integrating Apkudo functional and
+    cosmetic device assessment into consumer apps, retail-associate mobile
+    apps and companion experiences. Documented capabilities cover device
+    locks, battery health, camera, sensors, touchscreen and audio testing;
+    AI-based cosmetic grading from photo capture; configurable diagnostic
+    workflows; trade-in pricing and promotion lookup; and logistics/disposition
+    handoff with tracking and advance shipping notice. Results flow into the
+    Apkudo Platform for monitoring, reporting, export and alerting.
+  use_cases:
+  - trade-in
+  - insurance claims
+  - warranty validation
+  - device upgrade
+registry_searches:
+- registry: npm
+  url: https://registry.npmjs.org/-/v1/search?text=apkudo
+  results: 0
+- registry: pypi
+  url: https://pypi.org/pypi/apkudo/json
+  results: 0
+  status: 404
+- registry: rubygems
+  url: https://rubygems.org/api/v1/search.json?query=apkudo
+  results: 0
+- registry: packagist
+  url: https://packagist.org/search.json?q=apkudo
+  results: 0
+- registry: crates.io
+  url: https://crates.io/api/v1/crates?q=apkudo
+  results: 0
+- registry: nuget
+  url: https://azuresearch-usnc.nuget.org/query?q=apkudo
+  results: 0
+source_code:
+  github_org: https://github.com/apkudo
+  public_repos: 8
+  note: >-
+    All eight public repositories are legacy — seven are archived forks of
+    third-party projects (node, libuv, hubot, mongo-python-driver,
+    play-scraper, webobj, niagra) last touched 2012-2016. Only adbusbini
+    (an adb_usb.ini of known vendor IDs, last updated November 2021) is
+    Apkudo-authored, and it is not a client library for any Apkudo API.
+x-evidence:
+  fetched: '2026-08-02'
+  urls:
+  - https://www.apkudo.com/diagnostic-sdk
+  - https://www.apkudo.com/trade-in
+  - https://github.com/orgs/apkudo/repositories

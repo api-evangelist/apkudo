@@ -1,0 +1,62 @@
+generated: '2026-08-02'
+method: searched
+source: https://apkudo.trustcenter.sprinto.com/
+scope: >-
+  Apkudo publishes no public machine-readable API contract, so no API-level
+  standards (OpenAPI, OAuth 2.0, OIDC, RFC 9457, JSON:API, SCIM, OData) can be
+  asserted or refuted from a spec. What is asserted below are the organizational
+  and information-security standards Apkudo publishes on its Sprinto trust
+  center, plus explicit negatives for the API standards that were probed.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'Trust center lists "Apkudo 2025 SOC 2 Type 2 Report" (report gated behind mutual NDA)'
+- id: soc1-type2
+  conforms: true
+  evidence: 'Trust center lists "Apkudo 2025 SOC 1 Type 2 Report" (report gated behind mutual NDA)'
+- id: iso-27001
+  conforms: true
+  evidence: ISO 27001 compliance badge on https://apkudo.trustcenter.sprinto.com/
+- id: iso-9001
+  conforms: true
+  evidence: 'Trust center lists "Apkudo 9001 Certification" document'
+- id: gdpr
+  conforms: true
+  evidence: GDPR badge on the trust center; Data Processing Agreement published at
+    https://www.apkudo.com/legal/data-processing-agreement
+- id: ccpa
+  conforms: true
+  evidence: CCPA badge on https://apkudo.trustcenter.sprinto.com/
+- id: openapi
+  conforms: false
+  evidence: 'No OpenAPI/Swagger document found on any Apkudo host (see well-known/apkudo-well-known.yml
+    contract_discovery)'
+- id: asyncapi
+  conforms: false
+  evidence: No published event, streaming or webhook surface found
+- id: oauth2
+  conforms: false
+  evidence: No public authorization server; /.well-known/oauth-authorization-server returned
+    404
+- id: oidc
+  conforms: false
+  evidence: /.well-known/openid-configuration returned 404 on www.apkudo.com
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returned 404; disclosure route is the trust center
+    instead
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public API surface to evaluate
+- id: a2a
+  conforms: false
+  evidence: /.well-known/agent-card.json and /.well-known/agent.json both returned 404
+- id: mcp
+  conforms: false
+  evidence: No hosted or published MCP server found
+x-evidence:
+  fetched: '2026-08-02'
+  urls:
+  - https://apkudo.trustcenter.sprinto.com/
+  - https://www.apkudo.com/legal
+  - https://www.apkudo.com/.well-known/security.txt
