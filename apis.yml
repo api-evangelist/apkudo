@@ -14,7 +14,7 @@ url: https://raw.githubusercontent.com/api-evangelist/apkudo/refs/heads/main/api
 image: https://cdn.prod.website-files.com/666887fafa6e4363bb3e0e91/666b7b7d70124a550fa37236_apkudo-OG-image.png
 x-type: company
 x-source: harvest:secondary-market
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
