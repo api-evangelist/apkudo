@@ -22,6 +22,18 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://cdn.prod.website-files.com/666887fafa6e4363bb3e0e91/666b7b7d70124a550fa37236_apkudo-OG-image.png
 x-type: company
 x-source: harvest:secondary-market
